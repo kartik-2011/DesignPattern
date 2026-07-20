@@ -9,7 +9,7 @@ public class Student {
     int gradYear;
     String phoneNumber;
     public static Builder getBuilder(){
-        return new Builder();
+        return new Builder( );
     }
 
     public  Student(Builder builder){
